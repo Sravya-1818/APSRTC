@@ -1,0 +1,48 @@
+# -----------------------------
+# DATABASE FILES
+# -----------------------------
+*.db
+apsrtc
+apsrtc_deploy
+apsrtc_shared
+
+# -----------------------------
+# DATA FILES (VERY LARGE)
+# -----------------------------
+*.csv
+*.xlsx
+*.xls
+data_raw/
+master_data/
+2years/
+
+# -----------------------------
+# MODEL FILES
+# -----------------------------
+*.pkl
+*.joblib
+operational_models.pkl
+demand_model.joblib
+
+# -----------------------------
+# STREAMLIT SECRETS
+# -----------------------------
+.streamlit/secrets.toml
+
+# -----------------------------
+# PYTHON CACHE
+# -----------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------
+# ZIP FILES
+# -----------------------------
+*.zip
+pages.zip
+
+# -----------------------------
+# SYSTEM FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
