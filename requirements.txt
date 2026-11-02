@@ -2,6 +2,7 @@ streamlit
 pandas
 numpy
 plotly
+psycopg[binary]>=3.1
 psycopg2-binary
 sqlalchemy
 scikit-learn
